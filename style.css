@@ -11,3 +11,11 @@ body {
     background-attachment: fixed;  
     background-size: cover;
 }
+
+img {
+    width: 50%;
+}
+
+a {
+    color: rgb(0, 255, 0);
+}
