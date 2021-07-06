@@ -4,7 +4,7 @@ body {
     font-family: Epilogue, sans-serif, monospace;
     color:rgb(222, 223, 201);
     background-color: #92140f;
-    padding: 5%;
+    padding: 7%;
 }
 
 img {
@@ -14,3 +14,51 @@ img {
 a {
     color: rgb(0, 255, 0);
 }
+
+nav {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: #750401;
+    width: 100%;
+}
+
+ul {
+    list-style-type: circle;
+    margin: 0px;
+    padding: 0px;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.content {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td {
+    width: 50%;
+    border-bottom: 1px solid antiquewhite;
+    padding: 10px;
+}
+
+tr:hover {background-color: #1ba500;}
